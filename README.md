@@ -5,3 +5,10 @@
 <p style = "text-align:justify;">Agriculture is the most important sector in today’s life. Most plants are affected by a wide variety of bacterial and fungal diseases. Diseases on plants placed a major constraint on the production and a major threat to food security. Hence, early and accurate identification of plant diseases is essential to ensure high quantity and best quality. In recent years, the number of diseases on plants and the degree of harm caused has increased due to the variation in pathogen varieties, changes in cultivation methods, and inadequate plant protection techniques.</p>
 <h4>Proposed Solution</h4>
 An automated system is introduced to identify different diseases on plants by checking the symptoms shown on the leaves of the plant. Deep learning techniques are used to identify the diseases and suggest the precautions that can be taken for those diseases.
+<h4>Team Members</h4>
+<ul>
+<li> Anandhalakshmi.PA 917719IT007</li>
+<li> Cathe Michline Rose.A 917719IT017</li>
+<li> Jayasheelan.R 917719IT037</li>
+<li> Reshmekaa.R 917719IT078</li>
+</ul>
