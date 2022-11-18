@@ -17,6 +17,7 @@
 
 
 <h4>Project Workflow</h4>
-![Untitled Diagram drawio (2)](https://user-images.githubusercontent.com/59754243/202719153-86316a51-66e2-450b-b9c0-f104ff0e0b99.png)
 
+
+![Workflow](https://user-images.githubusercontent.com/59754243/202719546-4bcc1912-1869-49b4-9bfe-9743df5ebc25.png)
 
