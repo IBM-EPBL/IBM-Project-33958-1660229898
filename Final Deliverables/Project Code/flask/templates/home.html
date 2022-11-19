@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+    <title>Plant Disease Prediction</title>
+</head>
+<body>
+    <div class="row mh-100 mw-100">
+        <div class = "col-sm-1" style = "background-color: #2a522c;">
+           <div>
+                <img style="padding-left:35px; width: 100px; height: 70px;" src="data:image/png;base64,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">
+           </div> 
+        </div>
+        <div class="col-lg-4" style = "padding-left: 0px; height:745px; background-image: url(https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60); background-repeat: no-repeat;">
+            <div  style=" padding-left: 0px; padding-top:10px; padding-bottom:2px; background-color:rgba(42, 82, 44,0.7);">
+                <h1 style="color:aliceblue;">&nbsp;&nbsp;Plant Disease Prediction</h1>
+            </div>
+            
+        </div>
+        <div class="col-7">
+            <div style="padding-top: 20px;"class="row">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="btn btn-outline-success me-md-2" href = "{{url_for('home')}}" role="button">Home</a>
+                    <a class="btn btn-outline-success" href ="{{url_for('predict')}}"  role="button">Predict</a>
+                    <a class="btn btn-outline-success" href ="{{url_for('vegge')}}"  role="button">Vegetable LeafDiseases</a>
+                    <a class="btn btn-outline-success" href ="{{url_for('fruit')}}"  role="button">Fruit Leaf Diseases</a>
+                  </div>
+            </div><br><br>
+            <div class="row text-center">
+                <h1 style = "font-family: 'Raleway', sans-serif; color: #2a522c;"><b>Detect if your plant is Infected</b></h1><br><br>
+                <p style = "font-family: 'Raleway', sans-serif; color: #2a522c; padding:80px; text-align: justify;"><b>Agricuture is one of the most major sectors worldwide. Over the years it has developed and the use of many major technologies and equipment replaced almost all the traditional methods of farming. The plant disease affect the production. Identification of disease and taking necessary precautions is all done through naked eye, which requires labour and laboratories. This application helps farmers in detecting the diseases by observing the spots on leaves which in turn saves the labour costs.<br><br>
+                    This website is an automated system introduced to identify different diseases on plants by checking the symptoms shown on the leaves of the plant. Deep learning techniques are used to identify the diseases and suggest the precautions that can be taken for those diseases. </b></p>
+                <div>
+                    <img style="width:80px; height: 80px;" src="data:image/png;base64,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">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Bootstrap Java script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

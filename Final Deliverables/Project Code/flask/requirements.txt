@@ -1,0 +1,11 @@
+opencv-python==3.2.0.8
+gunicorn==19.9.0
+Jinja2==2.11.2
+Flask==1.1.1
+Flask-RESTful==0.3.7
+requests==2.22.0
+tensorflow==2.5.0
+tensorflow-hub==0.8.0
+python-dotenv
+elasticsearch==7.1.0
+elasticsearch-dsl==7.1.0
